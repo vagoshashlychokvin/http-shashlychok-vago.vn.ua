@@ -1,0 +1,57 @@
+﻿# If the Joomla site is installed within a folder such as at
+# e.g. www.example.com/joomla/ the robots.txt file MUST be
+# moved to the site root at e.g. www.example.com/robots.txt
+# AND the joomla folder name MUST be prefixed to the disallowed
+# path, e.g. the Disallow rule for the /administrator/ folder
+# MUST be changed to read Disallow: /joomla/administrator/
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/orig.html
+#
+# For syntax checking, see:
+# http://tool.motoricerca.info/robots-checker.phtml
+
+User-agent: *
+Allow: /index.php?option=com_xmap&sitemap=1&view=xml
+Disallow: /administrator/
+Disallow: /bin/
+Disallow: /cache/
+Disallow: /cli/
+Disallow: /components/
+Disallow: /includes/
+Disallow: /installation/
+Disallow: /language/
+Disallow: /layouts/
+Disallow: /libraries/
+Disallow: /logs/
+Disallow: /modules/
+Disallow: /plugins/
+Disallow: /tmp/
+Disallow: /xmlrpc/	#	#	#Не помню
+Disallow: /*com_mailto	#Форма отправки писем
+Disallow: /*pop=	#	#Всплывающие окна
+Disallow: /*lang=ru	#	#Не помню
+Disallow: /*format=	#	#Не помню
+Disallow: /*print=	#	#Ссылка вывода на печать
+Disallow: /*task=vote	#	#Голосования
+Disallow: /*=watermark	#Идиотская ссылка на водяные знаки
+Disallow: /*=download	#	#Ссылки на скачивание
+Disallow: /*user/	#	#Не помню
+Disallow: /404	#	#	#Закрываем 404 ошибку
+Disallow: /index.php?
+Disallow: /index.html
+Disallow: /*?	#	#	#все ссылки которые содержат этот знак не индексируются !
+Disallow: /*%	#	#	#все ссылки которые содержат этот знак не индексируются !
+Disallow: /*& 	#	#	#все ссылки которые содержат этот знак не индексируются !
+Disallow: /index2.php 	#	#Закрываем дубли
+Disallow: /index.php 	#	#Закрываем дубли
+Disallow: /*tag	#	#	#Закрываем облака тегов
+Disallow: /*.pdf	#	#	#Закрываем pdf файлы. По вашему усмотрению
+Disallow: /*.swf	#	#	#Закрываем Flash. По вашему усмотрению
+Disallow: /*print=1	#	#Закрываем ссылку на печать
+Disallow: /*=atom	#	#Закрывает RSS
+Disallow: /*=rss	#	#	#Закрывает RSS
+Host: krotik.com.ua	#	#	#Прописываем ваш сайт
+ 
+Sitemap: http://vinpravda.com/index.php?option=com_xmap&sitemap=1&view=xml  ### укажите адрес своей карты сайта
+

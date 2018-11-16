@@ -1,0 +1,261 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  color: #333333;
+}
+body.bg {
+  background: #ffffff;
+}
+a {
+  color: #0072bc;
+}
+a:hover {
+  color: #005389;
+}
+.btn,
+.btn.btn-primary,
+button {
+  background: #0072bc;
+}
+.btn:hover,
+.btn.btn-primary:hover,
+button:hover {
+  background: #0091ef;
+}
+#sp-main-menu ul.level-0 > li >a:after {
+  background: #0072bc;
+}
+#sp-main-menu li li:not(.sp-menu-group) a:after {
+  background: #0072bc;
+}
+#sp-main-menu li li:not(.sp-menu-group):hover >a,
+#sp-main-menu li li:not(.sp-menu-group).active >a {
+  color: #0072bc;
+}
+.sp-mobile-menu ul > li:hover,
+.sp-mobile-menu ul > li.active {
+  color: #0072bc;
+}
+.sp-main-menu-toggler:hover {
+  color: #0072bc;
+}
+.sp-mobile-menu > ul > li:hover > a,
+.sp-mobile-menu > ul > li:hover i,
+.sp-mobile-menu > ul > li.active > a,
+.sp-mobile-menu > ul > li.active i {
+  color: #0072bc;
+}
+.sp-mobile-menu > ul > li ul li:hover > a,
+.sp-mobile-menu > ul > li ul li:hover i,
+.sp-mobile-menu > ul > li ul li.active > a,
+.sp-mobile-menu > ul > li ul li.active i {
+  color: #0072bc;
+}
+#sp-header-wrapper.menu-fixed {
+  background: #0072bc !important;
+}
+#sp-header-wrapper .logo {
+  background-image: url(../../images/presets/preset4/logo.png);
+}
+#sp-header-wrapper .icon-top-wrapper .top-icon:hover {
+  color: #0091ef;
+}
+#sp-header-wrapper #sp-top-right .searchwrapper {
+  background: #0072bc;
+}
+#sp-subheader-wrapper #subheader .subheader-title h3 {
+  color: #0072bc;
+}
+#sp-subheader-wrapper #subheader .subheader-title h3:after {
+  background-color: #0072bc;
+}
+#sp-breadcrumb li span {
+  color: #0072bc;
+}
+h3.header {
+  color: #333333;
+}
+h3.header:after {
+  border-bottom: 2px solid #0072bc;
+}
+body.subpage #sp-header-wrapper {
+  background: #0072bc;
+}
+#sp-feature-wrapper {
+  background: #0072bc;
+}
+#sp-feature-wrapper .sp-feature .feature-img-wrapper {
+  background: #0072bc;
+}
+#sp-feature-wrapper .sp-feature-item-wrapper {
+  border-right: 1px solid #0063a3;
+  border-left: 1px solid #0081d6;
+}
+#sp-feature-wrapper .sp-feature-item-wrapper:hover .feature-img-wrapper img {
+  border: 2px solid #005389;
+  background: #0063a3;
+}
+.latest-review .itemWrapper .itemList .itemImageWrapper .moduleItemImage:after {
+  background: rgba(0,114,188,0.6);
+}
+.latest-review .itemWrapper .itemList .itemImageWrapper .moduleItemComments {
+  background: #0072bc;
+}
+.latest-review .itemWrapper .itemList .itemTextWrapper .moduleItemTitle {
+  border-left: 3px solid #0072bc;
+}
+#sp-users-wrapper {
+  border-top: 1px solid #ffffff;
+  background: #f2f2f2;
+}
+#sp-bottom-wrapper a:not(.btn):hover {
+  color: #0072bc;
+}
+#sp-bottom-wrapper .sp-sig a::before {
+  background-color: rgba(0,113,189,0.8);
+}
+#sp-bottom-wrapper #sp-bottom1 .btn.social:hover {
+  color: #333333;
+}
+.feedback-quote .media-body i {
+  color: #0072bc;
+}
+#sp-footer-wrapper {
+  background: #0072bc !important;
+}
+ul.social-icons >li >a:hover {
+  color: #0072bc !important;
+}
+.sp-pricing ul.plan li.plan-price {
+  background-color: #0072bc;
+}
+.sp-pricing ul.plan.featured li.plan-name {
+  background-color: #0072bc;
+}
+#sp-contact-info {
+  background: #0072bc;
+}
+.hikashop_subcategories .hikashop_container .hikashop_subcontainer:hover {
+  border-color: #0072bc;
+}
+.hikashop_subcategories .hikashop_container .hikashop_subcontainer .hikashop_category_name a:hover {
+  color: #0072bc;
+}
+.hikashop_products .hikashop_product .hikashop_container .hikashop_subcontainer .product-listing-info-wrapper:hover {
+  border-color: #0072bc;
+}
+#hikashop_product_right_part .hikashop_product_stock .quantiy-modify-wrapper {
+  background: #0072bc;
+}
+.product-details-bottom .tabbale ul.nav-tabs li a:hover {
+  background: #0072bc;
+}
+.product-details-bottom .tabbale ul.nav-tabs li.active a {
+  background: #0072bc;
+}
+.product-details-bottom .tab-content .tab-pane .ui-corner-all .ui-rating >span:before {
+  color: #0072bc;
+}
+.product-details-bottom .send_comment_button >input {
+  background: #0072bc;
+}
+#hikashop_checkout_page legend {
+  border-bottom: 1px solid #0072bc;
+}
+#hikashop_checkout_page legend::after {
+  border-bottom: 1px solid #004470;
+}
+#hikashop_address_form_span_iframe span.hikashop_field_required {
+  color: #0072bc;
+}
+.hikashop_product_stock >input {
+  background: #0072bc;
+}
+.hikashop_cart_input_button {
+  background: #0072bc;
+}
+.hikashop_cart_input_button:focus {
+  border: 0;
+  background: #0072bc;
+  outline: 0;
+}
+#sp-right h3.header {
+  border-bottom: 1px solid #0072bc;
+}
+#sp-right h3.header::after {
+  border-bottom: 1px solid #004470;
+}
+#sp-right .mod-wrapper .ecom-categories .hikashop_category_information .hikashop_category_name a:hover {
+  color: #0072bc;
+}
+div.itemComments h3.itemCommentsCounter,
+div.itemCommentsForm h3 {
+  color: #0072bc;
+}
+div.itemHeader span i {
+  color: #0072bc;
+}
+ul.latestItemTags li a,
+ul.itemTags li a,
+ul.userItemTags li a,
+div.itemHeader span a {
+  color: #0072bc;
+}
+ul.latestItemTags li a:hover,
+ul.itemTags li a:hover,
+ul.userItemTags li a:hover,
+div.itemHeader span a:hover {
+  color: #005389;
+}
+div.k2CategoriesListBlock ul li.activeCategory a {
+  color: #0072bc;
+}
+div.k2CategoriesListBlock ul li:hover a {
+  color: #0072bc;
+}
+div.k2TagCloudBlock a:hover {
+  background-color: #0072bc;
+  border-color: #0072bc;
+}
+#sp-bottom-wrapper,
+#sp-footer-wrapper {
+  color: #fff;
+}
+#sp-bottom-wrapper h3,
+#sp-footer-wrapper h3 {
+  color: #fff;
+}
+.commentLink {
+  background: #0072bc;
+}
+.itemTitle {
+  border-left: 3px solid #0072bc;
+}
+.itemImage:before {
+  background: rgba(0,114,188,0.6);
+}

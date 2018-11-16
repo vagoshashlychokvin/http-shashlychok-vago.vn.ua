@@ -1,0 +1,35 @@
+a:4:{s:4:"root";s:100:"/sata1/home/users/fakt1/www/www.shashlychok-vago.vn.ua/templates/shaper_organic_life/less/error.less";s:8:"compiled";s:645:"body {
+  background: #fff;
+}
+body #error-page {
+  background: url(../images/404-error.png) no-repeat 50% 0;
+  min-height: 400px;
+  max-width: 1140px;
+  padding: 19px 29px 29px;
+  margin: 100px auto 20px;
+}
+body #error-page >div {
+  margin-top: 320px;
+  text-align: center;
+}
+body #error-page h2.error-code {
+  font-size: 22px;
+  color: #676767;
+  font-weight: 400;
+}
+body #error-page p.error-message {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #999;
+}
+a.error-button {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #62a83d;
+  padding: 20px 40px;
+}
+a.error-button:hover {
+  text-decoration: none;
+}
+";s:5:"files";a:1:{s:100:"/sata1/home/users/fakt1/www/www.shashlychok-vago.vn.ua/templates/shaper_organic_life/less/error.less";i:1458498256;}s:7:"updated";i:1458574566;}

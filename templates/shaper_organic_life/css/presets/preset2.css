@@ -1,0 +1,346 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#js_main {
+  position: absolute;
+  right: 4221px;
+}
+body {
+  color: #333;
+}
+body.bg {
+  background: #ffffff;
+}
+a {
+  color: #ad8359;
+}
+a:hover {
+  color: #8d6a46;
+}
+.btn,
+.btn.btn-primary,
+button {
+  background: #ad8359;
+}
+.btn:hover,
+.btn.btn-primary:hover,
+button:hover {
+  background: #be9d7b;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+textarea:hover,
+textarea:focus,
+input[type="text"]:hover,
+input[type="text"]:focus,
+input[type="password"]:hover,
+input[type="password"]:focus,
+input[type="datetime"]:hover,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:hover,
+input[type="datetime-local"]:focus,
+input[type="date"]:hover,
+input[type="date"]:focus,
+input[type="month"]:hover,
+input[type="month"]:focus,
+input[type="time"]:hover,
+input[type="time"]:focus,
+input[type="week"]:hover,
+input[type="week"]:focus,
+input[type="number"]:hover,
+input[type="number"]:focus,
+input[type="email"]:hover,
+input[type="email"]:focus,
+input[type="url"]:hover,
+input[type="url"]:focus,
+input[type="search"]:hover,
+input[type="search"]:focus,
+input[type="tel"]:hover,
+input[type="tel"]:focus,
+input[type="color"]:hover,
+input[type="color"]:focus,
+select:hover,
+select:focus,
+.uneditable-input:hover,
+.uneditable-input:focus {
+  border-color: #ad8359;
+}
+#sp-main-menu ul.level-0 > li >a:after {
+  background: #ad8359;
+}
+#sp-main-menu li li:not(.sp-menu-group) a:after {
+  background: #ad8359;
+}
+#sp-main-menu li li:not(.sp-menu-group):hover >a,
+#sp-main-menu li li:not(.sp-menu-group).active >a {
+  color: #ad8359;
+}
+.sp-mobile-menu ul > li:hover,
+.sp-mobile-menu ul > li.active {
+  color: #ad8359;
+}
+.sp-main-menu-toggler:hover {
+  color: rgba(255,255,255,0.5);
+}
+.sp-mobile-menu > ul > li:hover > a,
+.sp-mobile-menu > ul > li:hover i,
+.sp-mobile-menu > ul > li.active > a,
+.sp-mobile-menu > ul > li.active i {
+  color: #ad8359;
+}
+.sp-mobile-menu > ul > li ul li:hover > a,
+.sp-mobile-menu > ul > li ul li:hover i,
+.sp-mobile-menu > ul > li ul li.active > a,
+.sp-mobile-menu > ul > li ul li.active i {
+  color: #ad8359;
+}
+#sp-header-wrapper.menu-fixed {
+  background: #ad8359 !important;
+}
+#sp-header-wrapper .logo {
+  background-image: url(../../images/presets/preset2/logo.png);
+}
+#sp-header-wrapper .icon-top-wrapper .top-icon:hover {
+  color: rgba(255,255,255,0.5);
+}
+#sp-header-wrapper #sp-top-right .searchwrapper {
+  background: #ad8359;
+}
+#sp-subheader-wrapper #subheader .subheader-title h3 {
+  color: #ad8359;
+}
+#sp-subheader-wrapper #subheader .subheader-title h3:after {
+  background-color: #ad8359;
+}
+#sp-breadcrumb li span {
+  color: #ad8359;
+}
+h3.header {
+  color: #333;
+}
+h3.header:after {
+  border-bottom: 2px solid #ad8359;
+}
+body.subpage #sp-header-wrapper {
+  background: #ad8359;
+}
+#sp-feature-wrapper {
+  background: #ad8359;
+}
+#sp-feature-wrapper .sp-feature .feature-img-wrapper {
+  background: #ad8359;
+}
+#sp-feature-wrapper .sp-feature-item-wrapper {
+  border-right: 1px solid #9e764e;
+  border-left: 1px solid #b5906a;
+}
+#sp-feature-wrapper .sp-feature-item-wrapper:hover .feature-img-wrapper img {
+  border: 2px solid #8d6a46;
+  background: #9e764e;
+}
+.latest-review .itemWrapper .itemList .itemImageWrapper .moduleItemImage:after {
+  background: rgba(173,131,89,0.6);
+}
+.latest-review .itemWrapper .itemList .itemImageWrapper .moduleItemComments {
+  background: #ad8359;
+}
+.latest-review .itemWrapper .itemList .itemTextWrapper .moduleItemTitle {
+  border-left: 3px solid #ad8359;
+}
+.latest-review .itemWrapper .itemList .itemTextWrapper .moduleItemTitle:hover {
+  color: #ad8359;
+}
+#sp-bottom-wrapper a:not(.btn):hover {
+  color: #ad8359;
+}
+#sp-bottom-wrapper .sp-sig a::before {
+  background-color: rgba(173,130,88,0.8);
+}
+#sp-bottom-wrapper #sp-bottom1 .btn.social:hover {
+  color: #333;
+}
+.feedback-quote .media-body i {
+  color: #ad8359;
+}
+#sp-footer-wrapper {
+  background: #ad8359 !important;
+}
+ul.social-icons >li >a:hover {
+  color: #ad8359 !important;
+}
+.sp-pricing ul.plan li.plan-price {
+  background-color: #ad8359;
+}
+.sp-pricing ul.plan.featured li.plan-name {
+  background-color: #8d6a46;
+}
+#sp-call-to-action-wrapper {
+  background-color: #ad8359;
+}
+.about-us .content-heading {
+  border-bottom: 1px solid #ad8359;
+}
+.about-us .content-heading::after {
+  background-color: #8d6a46;
+}
+#sp-contact-info {
+  background: #ad8359;
+}
+.hikashop_subcategories .hikashop_container .hikashop_subcontainer:hover {
+  border-color: #ad8359;
+}
+.hikashop_subcategories .hikashop_container .hikashop_subcontainer .hikashop_category_name a:hover {
+  color: #ad8359;
+}
+.hikashop_category_information h2 {
+  border-bottom: 1px solid #ad8359;
+}
+.hikashop_products .hikashop_product .hikashop_container .hikashop_subcontainer .product-listing-info-wrapper:hover {
+  border-color: #ad8359;
+}
+.hikashop_products_pagination_bottom .list-footer ul .pagenav:hover {
+  color: #ad8359;
+}
+#hikashop_product_right_part .hikashop_product_stock .quantiy-modify-wrapper {
+  background: #ad8359;
+}
+.product-details-bottom .tabbale ul.nav-tabs li a:hover {
+  background: #ad8359;
+}
+.product-details-bottom .tabbale ul.nav-tabs li.active a {
+  background: #ad8359;
+}
+.product-details-bottom .tab-content .tab-pane .ui-corner-all .ui-rating >span:before {
+  color: #ad8359;
+}
+.product-details-bottom .send_comment_button >input {
+  background: #ad8359;
+}
+#hikashop_checkout_page legend {
+  border-bottom: 1px solid #ad8359;
+}
+#hikashop_checkout_page legend::after {
+  border-bottom: 1px solid #7c5d3d;
+}
+#hikashop_address_form_span_iframe span.hikashop_field_required {
+  color: #ad8359;
+}
+.hikashop_product_stock >input {
+  background: #ad8359;
+}
+.hikashop_cart_input_button {
+  background: #ad8359;
+}
+.hikashop_cart_input_button:focus {
+  border: 0;
+  background: #ad8359;
+  outline: 0;
+}
+#sp-right h3.header {
+  border-bottom: 1px solid #ad8359;
+}
+#sp-right h3.header::after {
+  border-bottom: 1px solid #7c5d3d;
+}
+#sp-right .mod-wrapper .ecom-categories .hikashop_category_information .hikashop_category_name a:hover {
+  color: #ad8359;
+}
+div.itemComments h3.itemCommentsCounter,
+div.itemCommentsForm h3 {
+  color: #ad8359;
+}
+div.itemHeader span i {
+  color: #ad8359;
+}
+div.itemHeader h2.itemTitle {
+  color: #ad8359;
+}
+div.itemRelated h3:after,
+div.itemAuthorLatest h3:after {
+  border-bottom: 1px solid #8d6a46;
+}
+div.itemRelated h3,
+div.itemAuthorLatest h3 {
+  border-bottom: 1px solid #be9d7b;
+}
+ul.latestItemTags li a,
+ul.itemTags li a,
+ul.userItemTags li a,
+div.itemHeader span a {
+  color: #ad8359;
+}
+ul.latestItemTags li a:hover,
+ul.itemTags li a:hover,
+ul.userItemTags li a:hover,
+div.itemHeader span a:hover {
+  color: #8d6a46;
+}
+div blockquote {
+  border-left: 4px solid #ad8359;
+}
+div blockquote p span.quote-author {
+  color: #be9d7b;
+}
+.commentLink {
+  background: #ad8359;
+}
+.pagination ul li.pagination-active a,
+.pagination ul li.pagination-active span {
+  color: #ad8359;
+}
+.pagination ul li a:hover {
+  color: #ad8359;
+}
+div.k2CategoriesListBlock ul li.activeCategory a {
+  color: #ad8359;
+}
+div.k2CategoriesListBlock ul li:hover a {
+  color: #ad8359;
+}
+div.k2TagCloudBlock a:hover {
+  background-color: #ad8359;
+  border-color: #ad8359;
+}
+#sp-bottom-wrapper,
+#sp-footer-wrapper {
+  color: #fff;
+}
+#sp-bottom-wrapper h3,
+#sp-footer-wrapper h3 {
+  color: #fff;
+}
+.commentLink {
+  background: #ad8359;
+}
+.itemTitle {
+  border-left: 3px solid #ad8359;
+}
+.itemImage:before {
+  background: rgba(173,131,89,0.6);
+}
